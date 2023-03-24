@@ -30,8 +30,8 @@ public class Manager {
         numerosPares = splitter.fibonacciPares(secuenciaFibonacci);
         numerosImpares = splitter.fibonacciImpares(secuenciaFibonacci);
 
-        guardar_Archivo("Nupares.txt", numerosPares);
-        guardar_Archivo("Nuimpares.txt", numerosImpares);
+        guardar_Archivo("Numeros pares.txt", numerosPares);
+        guardar_Archivo("Numeros impares.txt", numerosImpares);
     }
     
     public void imprimirArchivo(String filename) {
